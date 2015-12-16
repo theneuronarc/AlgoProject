@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{32E76E10-ED96-437B-9BFD-037659798B0A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AlgoProject</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Algos\LeetCodeAlgorithms\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Algos\CoreAlgorithms\src\inorder_traversals.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\3sum.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\3sum_closest.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\4sum.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\add_binary.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\climbing_stairs.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\combinations.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\combination_sum.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\container_with_max_water.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\count_and_say.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\decode_ways.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\divide_without_operators.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\first_missing_positive.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\generate_parentheses.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\gray_codes.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\group_anagrams.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\insert_interval.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\integer_to_roman.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\interleaving_strings.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\jump_game.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\jump_game_2.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\largest_rect_histogram.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\length_last_word.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\longestPalindrome.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\longestSequenceWithoutRepeating.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\longest_common_prefix.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\longest_valid_parentheses.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\main.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\matching_parehthesis.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\maximum_subarray.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\Median2SortedArrays.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\merge_intervals.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\merge_k_lists.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\merge_k_sorted_lists.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\merge_sorted_array.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\merge_sorted_arrays.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\min_heap.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\min_path_sum.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\min_windows.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\multiply_strings.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\next_permutation.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\number_palindrome_test.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\n_queens.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\n_queens_2.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\partition_list.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\permutation.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\permutations_2.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\permutation_sequence.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\phone_number_combinations.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\plus_one.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\power.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\recover_bst.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\regular_expression_matching.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\remove_duplicates.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\remove_duplicate_2.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\remove_element.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\remove_nth_node.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\rem_dup_list.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\restore_ip_address.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\reverse_integer.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\reverse_k_nodes.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\reverse_linked_list.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\roman_to_int.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\rotated_sorted_array_search.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\rotated_sorted_array_search_dup.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\rotate_image.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\rotate_list.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\search_2d_matrix.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\search_for_range.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\search_insertion_position.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\set_matrix_zeroes.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\simplify_path.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\sort_colors.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\spiral_matrix.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\ss_concatenation_words_30.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\stoi.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\str_str.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\subsets.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\subsets_2.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\swap_node_pairs.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\text_justification.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\trapping_rain_water.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\unique_binary_search_tree.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\unique_bst_2.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\unique_paths.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\valid_bst.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\valid_number.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\valid_string.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\word_search.cpp" />
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\zigzagconversion.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Algos\LeetCodeAlgorithms\inc\min_heap.h" />
+    <ClInclude Include="..\Algos\LeetCodeAlgorithms\inc\std_headers.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

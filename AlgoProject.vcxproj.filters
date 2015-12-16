@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\LeetCode">
+      <UniqueIdentifier>{3b3f2b4e-53a2-468c-b162-72b6e997b2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CoreAlgos">
+      <UniqueIdentifier>{78574474-31f2-432a-8828-7d24bed120ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LeetCode">
+      <UniqueIdentifier>{0a6b25d0-f288-42fa-90f3-8692898d8525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CoreAlgos">
+      <UniqueIdentifier>{ab366057-96cf-45ce-bede-07443e4d0fcf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\3sum.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\3sum_closest.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\4sum.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\add_binary.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\climbing_stairs.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\combination_sum.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\combinations.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\container_with_max_water.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\count_and_say.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\decode_ways.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\divide_without_operators.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\first_missing_positive.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\generate_parentheses.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\gray_codes.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\group_anagrams.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\insert_interval.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\integer_to_roman.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\interleaving_strings.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\jump_game.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\jump_game_2.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\largest_rect_histogram.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\length_last_word.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\longest_common_prefix.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\longest_valid_parentheses.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\longestPalindrome.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\longestSequenceWithoutRepeating.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\main.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\matching_parehthesis.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\maximum_subarray.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\Median2SortedArrays.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\merge_intervals.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\merge_k_lists.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\merge_k_sorted_lists.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\merge_sorted_array.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\merge_sorted_arrays.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\min_heap.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\min_path_sum.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\min_windows.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\multiply_strings.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\n_queens.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\n_queens_2.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\next_permutation.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\number_palindrome_test.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\partition_list.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\permutation.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\permutation_sequence.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\permutations_2.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\phone_number_combinations.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\plus_one.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\power.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\recover_bst.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\regular_expression_matching.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\rem_dup_list.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\remove_duplicate_2.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\remove_duplicates.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\remove_element.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\remove_nth_node.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\restore_ip_address.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\reverse_integer.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\reverse_k_nodes.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\reverse_linked_list.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\roman_to_int.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\rotate_image.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\rotate_list.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\rotated_sorted_array_search.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\rotated_sorted_array_search_dup.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\search_2d_matrix.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\search_for_range.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\search_insertion_position.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\set_matrix_zeroes.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\simplify_path.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\sort_colors.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\spiral_matrix.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\ss_concatenation_words_30.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\stoi.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\str_str.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\subsets.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\subsets_2.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\swap_node_pairs.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\text_justification.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\trapping_rain_water.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\unique_binary_search_tree.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\unique_bst_2.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\unique_paths.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\valid_bst.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\valid_number.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\valid_string.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\word_search.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\LeetCodeAlgorithms\src\zigzagconversion.cpp">
+      <Filter>Source Files\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algos\CoreAlgorithms\src\inorder_traversals.cpp">
+      <Filter>Source Files\CoreAlgos</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Algos\LeetCodeAlgorithms\inc\min_heap.h">
+      <Filter>Header Files\LeetCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Algos\LeetCodeAlgorithms\inc\std_headers.h">
+      <Filter>Header Files\LeetCode</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
